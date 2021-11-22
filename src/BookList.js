@@ -1,16 +1,19 @@
 import React from "react";
+//css
+import './BookList.css'
 
 function BookList() {
   return (
-    <section>
+    <section className="bookList">
       <Book />
     </section>
   );
 }
 
 const Book = () => {
+    const title = "The Silent Patient";
   return (
-    <article>
+    <article className="book">
       <Image />
       <Title />
       <Author />

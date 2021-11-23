@@ -1,6 +1,6 @@
 import React from "react";
 //css
-import './BookList.css'
+import "./BookList.css";
 
 function BookList() {
   return (
@@ -10,26 +10,20 @@ function BookList() {
   );
 }
 
+const author = "Alex Michaelides, Jack Hawkins";
 const Book = () => {
-    const title = "The Silent Patient";
+  const title = "The Silent Patient";
   return (
     <article className="book">
-      <Image />
-      <Title />
-      <Author />
+      <img
+        src="https://m.media-amazon.com/images/I/91RVshgQn1S._AC_UL320_.jpg"
+        alt=""
+      />
+      <h1>{title}</h1>
+      <h4>{author.toUpperCase()}</h4>
+      <p>{6 + 6}</p>
     </article>
   );
 };
-
-const Title = () => <h1> The Silent Patient</h1>;
-
-const Author = () => <h4>Alex Michaelides, Jack Hawkins</h4>;
-
-const Image = () => (
-  <img
-    src="https://m.media-amazon.com/images/I/91RVshgQn1S._AC_UL320_.jpg"
-    alt=""
-  />
-);
 
 export default BookList;

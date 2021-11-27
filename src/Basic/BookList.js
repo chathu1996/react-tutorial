@@ -2,8 +2,8 @@ import React from "react";
 //css
 import "./BookList.css";
 import { books } from "./Books";
-import Book from "./Book"
-import {greeting} from './Testing/Testing'
+import Book from "./Book";
+import { greeting } from "../Testing/Testing";
 
 function BookList() {
   console.log(greeting);
@@ -15,7 +15,5 @@ function BookList() {
     </section>
   );
 }
-
-
 
 export default BookList;

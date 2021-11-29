@@ -1,10 +1,10 @@
 import "./App.css";
-import UseStateCounter from "./tutorial/1-useState/5-useState-counter";
+import SetUp from "./tutorial/2-UseEffect/1-useEffect-basics";
 
 function App() {
   return (
     <div className="Container">
-      <UseStateCounter />
+      <SetUp />
     </div>
   );
 }

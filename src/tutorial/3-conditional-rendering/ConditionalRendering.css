@@ -6,3 +6,15 @@
   flex-direction: column;
   gap: 5px;
 }
+.btn {
+  background: cornflowerblue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: cornsilk;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  border: 1px solid;
+}
+

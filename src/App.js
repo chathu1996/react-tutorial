@@ -1,7 +1,6 @@
 import "./App.css";
-import "../src/tutorial/3-conditional-rendering/ConditionalRendering.css"
-import SetUp from "./tutorial/3-conditional-rendering/1-mutiple-returns";
-
+import "../src/tutorial/3-conditional-rendering/ConditionalRendering.css";
+import SetUp from "./tutorial/3-conditional-rendering/2-short-circuit";
 
 function App() {
   return (

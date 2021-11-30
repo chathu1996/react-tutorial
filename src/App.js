@@ -1,5 +1,7 @@
 import "./App.css";
-import SetUp from "./tutorial/2-UseEffect/2-useEffect-cleanup";
+import "../src/tutorial/3-conditional-rendering/ConditionalRendering.css"
+import SetUp from "./tutorial/3-conditional-rendering/1-mutiple-returns";
+
 
 function App() {
   return (

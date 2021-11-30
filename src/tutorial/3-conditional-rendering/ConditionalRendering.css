@@ -1,0 +1,8 @@
+.condtional-rendering {
+  margin-top: 100px;
+  display: flex;
+  height: 30vw;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}

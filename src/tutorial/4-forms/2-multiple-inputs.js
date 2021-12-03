@@ -12,7 +12,6 @@ const MultipleInputs = () => {
     setPerson({ ...person, [name]: value });
   };
   const handleSubmit = (e) => {
-    e.preventDefault;
     if (person.firstName && person.email && person.age) {
       const newPerson = { ...person, id: new Date().getTime().toString() };
       setPeople([...people, new person()]);

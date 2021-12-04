@@ -1,6 +1,6 @@
 import "./App.css";
-import "../src/tutorial/5-useRef/UseRef.css";
-import SetUp from "./tutorial/5-useRef/1-useRef-basics";
+import "../src/tutorial/6-useReduer/UseReducer.css";
+import SetUp from "./tutorial/6-useReduer/index";
 
 function App() {
   return (

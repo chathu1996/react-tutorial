@@ -1,6 +1,6 @@
 import "./App.css";
 import "../src/tutorial/6-useReduer/UseReducer.css";
-import SetUp from "./tutorial/9-custom-hooks/1-fetch-examples";
+import SetUp from "./tutorial/10-prop-types/index";
 
 function App() {
   return (

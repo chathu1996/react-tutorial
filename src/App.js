@@ -1,6 +1,7 @@
 import "./App.css";
 import "../src/tutorial/6-useReduer/UseReducer.css";
-import SetUp from "./tutorial/10-prop-types/index";
+import SetUp from "./tutorial/11-react-router/index";
+
 
 function App() {
   return (
